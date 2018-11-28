@@ -30,36 +30,25 @@ class ProfilePage extends Component {
                 style={styles.drawerImage}
                 source={require ('../../assets/img/avatar.jpg')}
               />
-              <Text style={styles.textview_heading}>John Doe</Text>
+              <Text style={styles.textview_heading_name}>John Doe</Text>
               <View
                 style={{
                   flex: 1,
                   flexDirection: 'row',
                   justifyContent: 'space-between',
-                  marginTop: '1%',
+                  marginTop: '3%',
                 }}
               >
-                <Button
-                  full
-                  style={{
-                    flex: 1,
-                  }}
-                >
-                  <Text>Primary</Text>
+                <Button full style={styles.button}>
+                  <Text>Activity</Text>
                 </Button>
                 <View
                   style={{
                     flex: 0.1,
                   }}
                 />
-                <Button
-                  full
-                  success
-                  style={{
-                    flex: 1,
-                  }}
-                >
-                  <Text>Success</Text>
+                <Button full success style={styles.button}>
+                  <Text>Passes</Text>
                 </Button>
               </View>
             </Body>
@@ -84,7 +73,7 @@ class ProfilePage extends Component {
               </ListItem>
               <ListItem>
                 <Left>
-                  <Text style={styles.textview_heading} />
+                  <Text style={styles.textview_heading}>Chat with us</Text>
                 </Left>
                 <Right>
                   <Icon name="arrow-forward" style={styles.icon} />
@@ -92,7 +81,7 @@ class ProfilePage extends Component {
               </ListItem>
               <ListItem>
                 <Left>
-                  <Text style={styles.textview_heading}>Dejan Lovren</Text>
+                  <Text style={styles.textview_heading}>FAQ</Text>
                 </Left>
                 <Right>
                   <Icon name="arrow-forward" style={styles.icon} />
@@ -100,15 +89,7 @@ class ProfilePage extends Component {
               </ListItem>
               <ListItem>
                 <Left>
-                  <Text style={styles.textview_heading}>Dejan Lovren</Text>
-                </Left>
-                <Right>
-                  <Icon name="arrow-forward" style={styles.icon} />
-                </Right>
-              </ListItem>
-              <ListItem>
-                <Left>
-                  <Text style={styles.textview_heading}>Dejan Lovren</Text>
+                  <Text style={styles.textview_heading}>Contact us</Text>
                 </Left>
                 <Right>
                   <Icon name="arrow-forward" style={styles.icon} />

@@ -5,7 +5,7 @@ export default (Styles = StyleSheet.create ({
     flex: 1,
   },
   drawerHeader: {
-    height: 200,
+    height: 220,
     backgroundColor: '#7bdad1',
   },
   drawerImage: {
@@ -25,7 +25,17 @@ export default (Styles = StyleSheet.create ({
     fontFamily: 'Roboto-Bold',
     color: 'white',
   },
+  textview_heading_name: {
+    fontFamily: 'Roboto-Bold',
+    color: 'white',
+    marginTop: '3%',
+  },
   icon: {
     color: 'white',
+  },
+  button: {
+    flex: 1,
+    backgroundColor: 'rgb(79, 195, 247)',
+    borderRadius: 0,
   },
 }));
